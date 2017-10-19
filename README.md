@@ -1,6 +1,6 @@
 # sql-staff
-sql testing site
+SQL문제를 풀어 볼 수 있는 사이트입니다.
 
 # author
-> github.com/lunaB <br>
-> github.com/lhb5407 <br>
+> [lunaB](https://github.com/lunaB) 나영채 <br>
+> [lhb5407](https://github.com/lhb5407) 이형빈 <br>
