@@ -16,7 +16,7 @@ JQuery | 1.7 ^
 Repository : git(github)
 
 ## server 
-Antivirus (window server) <br>
+NT (Window server)<br>
 Tomcat <br>
 
 ## struct
