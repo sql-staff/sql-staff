@@ -16,11 +16,17 @@ JQuery | 1.7 ^
 Repository : git(github)
 
 ## struct
----|---
-Briwser | IE10, Chrome, safari (osx), firefox
-Front | 통신 JSON ( parameter -> json -> bean )
-applilcation | Mybatis
-DB | ...
+- Briwser 
+    - IE10
+    - Chrome
+    - safari(Mac)
+    - firefox
+- Front
+    - JSON 통신 ( parameter -> json -> bean )
+- applilcation
+    - Mybatis
+- DB
+    - ...
 
 ## order
 - 회원제
