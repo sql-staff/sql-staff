@@ -16,6 +16,7 @@ JQuery | 1.7 ^
 Repository : git(github)
 
 ## struct
+---|---
 Briwser | IE10, Chrome, safari (osx), firefox
 Front | 통신 JSON ( parameter -> json -> bean )
 applilcation | Mybatis
@@ -26,9 +27,9 @@ DB | ...
 - 사진/동영상/파일
 
 ## process
-- [] idea
-- [] self-study
-- [] 설계준비
+- [ ] idea
+- [ ] self-study
+- [ ] 설계준비
 - ...
 
 기획서 스케줄표
