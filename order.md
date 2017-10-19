@@ -6,14 +6,18 @@ HTML | HTML5
 CSS | CSS3
 JDK | 1.6
 Spring | 3.2.x ^
-Spring security | 
-Ehcache |
+Spring security | ┘
+Ehcache | ┘
 Oracle DB | 10g
 Javascript | ECMA 5 ^
 JQuery | 1.7 ^
 
 ## control
 Repository : git(github)
+
+## server 
+Antivirus (window server) <br>
+Tomcat <br>
 
 ## struct
 - Browser 
