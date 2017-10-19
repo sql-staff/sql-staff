@@ -16,7 +16,7 @@ JQuery | 1.7 ^
 Repository : git(github)
 
 ## struct
-- Briwser 
+- Browser 
     - IE10
     - Chrome
     - safari(Mac)
