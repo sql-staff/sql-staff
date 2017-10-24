@@ -13,11 +13,11 @@ Javascript | ECMA 5 ^
 JQuery | 1.7 ^
 
 ## control
-Repository : git(github)
+Repository : git(github)  
 
 ## server 
-NT (Window server)<br>
-Tomcat <br>
+NT (Window server)  
+Tomcat  
 
 ## struct
 - Browser 
@@ -45,5 +45,5 @@ Tomcat <br>
 기획서 스케줄표
 
 ## tip
-> SQL은 ANSI 스타일을 사용한다. <br>
-> join/group 함수 되도록 쓰지 않기 <br>
+> SQL은 ANSI 스타일을 사용한다.  
+> join/group 함수 되도록 쓰지 않기  
