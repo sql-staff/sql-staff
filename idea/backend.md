@@ -85,3 +85,18 @@
 
 ### problem
 - 인젝션에 위험이 있을 수 있다.
+
+---
+
+## 6.SQL parsor 사용
+
+### process
+- 유저 : 문제풀이 SQL 전송
+- 서버 : 받은 SQL을 SQL parsor를 사용해 결과분석을한다
+- 서버 : 결과를 반환한다
+
+### advantage
+- 완벽하다
+
+### problem
+- 구현이 많이 힘들다.
