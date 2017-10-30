@@ -96,7 +96,19 @@
 - 서버 : 결과를 반환한다
 
 ### advantage
-- 완벽하다
+- DB에 직접 접근하지 않는다.
 
 ### problem
 - 구현이 많이 힘들다.
+
+---
+
+## 7.tablespace 사용
+
+### process
+- ...
+
+### advantage
+- ...
+### p
+- ...
