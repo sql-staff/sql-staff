@@ -1,4 +1,5 @@
-# backend
+# database_process
+서버에서 사용자의 쿼리를 체점하는 방법에 대한 생각.
 
 ## 1.sendbox 이용
 ### process
