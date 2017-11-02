@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Untitled Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css"/>
+	<style>
+		@font-face {
+			font-family: 'NanumBarunGothic';
+			src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+			src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+		}
+		* {
+			font-family: 'NanumBarunGothic';
+			outline: none;
+		}
+		.main {
+			padding: 0px;
+		}
+		.main > .container {
+			height: 100vh;
+			margin: 0px;
+		}
+		.main > .container > .columns {
+			margin: 0px !important;
+			height: 100%;
+		}
+		.main > .container > .columns > .column{
+			padding: 0px;
+		}
+		.menu{
+			position: absolute;
+			top: 30px;
+			right: 30px;
+			font-size: 35px;
+		}
+		.logo > .icon{
+			font-size: 30px;
+			position: absolute;
+			left: 0px;
+		}
+		.logo{
+			color: #0d63d4;
+			position: absolute;
+			top: 30px;
+			left: 30px;
+			letter-spacing: 0.5px;
+			font-size: 15px;
+			font-weight: bold;
+			padding-left: 33px;
+		}
+		.preview {
+			margin-left: 150px;
+		}
+		.sub{
+			font-size: 18px;
+		}
+		.sub-sub{
+			font-size: 14px;
+		}
+		.is-vcentered {
+		  -webkit-box-align: center;
+			 -ms-flex-align: center;
+				align-items: center;
+		}
+		.body{
+			height: 100vh;
+		}
+		.body > .container{
+			width: auto !important;
+		}
+		.body > .container .subtitle{
+			margin-top: 45px;
+		}
+		.body > .container .title{
+			font-size: 45px;
+			color: #0d63d4;
+			font-weight: lighter;
+			line-height: 70px;
+		}
+		button {
+			width: 130px;
+			height: 60px;
+			color: #0d63d4;
+			border: 2px solid #0d63d4;
+			background-color: transparent;
+			font-size: 15px;
+			font-weight: bold;
+			transition: 0.3s;
+		}
+		.signup-btn{
+			color: #04a6d7;
+			width: 220px;
+			border-color: transparent;
+			text-decoration: underline;
+		}
+		.signup-btn:hover{
+			border-color: #0d63d4;
+			background-color: transparent;
+			color: #04a6d7;
+		}
+		button:hover{
+			background-color: #0d63d4;
+			color: white;
+		}
+	</style>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</head>
+
+<body>
+	<section class="hero is-successs is-fullheight">
+		<div class="hero-body main">
+			<div class="container is-fluid">
+				<div class="columns">
+					<div class="column">
+						<span class="logo"><span class="icon"><i class="fa fa-magic"></i></span>SQL STAFF</span>
+						<div class="hero-body body">
+							<div class="container has-text-centered">
+								<h1 class="title">Handy, Development & Study<br>For Web SQL Judge</h1>
+								<h2 class="subtitle">
+									<button class="login-btn">LOGIN</button>
+									<button class="signup-btn">SIGN UP FOR FREE</button>
+								</h2>
+							</div>
+						</div>
+					</div>
+					<div class="column is-5 is-narrow">
+						<section class="hero is-info is-bold is-fullwidth is-fullheight">
+							<div class="hero-body">
+								<span class="menu icon"><i class="fa fa-bars"></i></span>
+								<div class="container has-text-centered preview">
+									<h1 class="title">Take a SQL STAFF</h1>
+									<h2 class="subtitle sub"><br>You can make your program<br> faster and smarter.</h2>
+									<p class="has-text-centered sub-sub"><img src="image/hand.png" alt="hand"> Slide or click here</p>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
