@@ -1,7 +1,7 @@
 # DB Struct
 ### Server DB
 
-![db구조 사진](/image/dbmodel1.png)
+![db구조 사진](./image/dbmodel1.png)
 
 # 이거 아님..
 #### USER_TB
