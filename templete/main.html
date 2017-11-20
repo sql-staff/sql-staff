@@ -117,7 +117,7 @@
 		#menu:checked ~ .slidemenu{
 			width: 25% !important;
 		}
-		#menu:checked ~ .column.is-5.is-narrow .menu{
+		#menu:checked ~ label > .menu{
 			background-image: linear-gradient(0deg, #ff470f, #ff3860, #b86bff, #3273dc);
 			-webkit-background-clip: text;
  			-webkit-text-fill-color: transparent;
@@ -156,9 +156,6 @@
 " class="hero is-dark is-bold"></div>
 						<section class="hero is-info is-bold is-fullwidth is-fullheight">
 							<div class="hero-body">
-								<label for="menu">
-									<span class="menu icon"><i class="fa fa-bars"></i></span>
-								</label>
 								<div class="container has-text-centered preview">
 									<h1 class="title">Take a SQL STAFF</h1>
 									<h2 class="subtitle sub"><br>You can make your program<br> faster and smarter.</h2>
@@ -167,7 +164,11 @@
 							</div>
 						</section>
 					</div>
+					<label for="menu">
+						<span class="menu icon"><i class="fa fa-bars"></i></span>
+					</label>
 					<div class="column is-3 is-narrow slidemenu">
+
 					</div>
 				</div>
 			</div>
