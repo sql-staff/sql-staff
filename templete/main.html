@@ -33,6 +33,8 @@
 			position: absolute;
 			top: 30px;
 			right: 30px;
+			width: 30px;
+			height: 35px;
 			font-size: 35px;
 		}
 		.logo > .icon{
@@ -105,10 +107,20 @@
 			color: white;
 		}
 		.slidemenu {
+			transition: .5s;
+			width: 0px !important;
 			background-position: left;
-			background-size: 100% 4px;
+			background-size: 4px 100%;
 			background-repeat: no-repeat;
-			background-image: linear-gradient(0deg, #ff470f, #ff3860, #b86bff, #3273dc), linear-gradient(90deg, #ff470f, #ff3860, #b86bff, #3273dc);
+			background-image: linear-gradient(0deg, #ff470f, #ff3860, #b86bff, #3273dc);
+		}
+		#menu:checked ~ .slidemenu{
+			width: 25% !important;
+		}
+		#menu:checked ~ .column.is-5.is-narrow .menu{
+			background-image: linear-gradient(0deg, #ff470f, #ff3860, #b86bff, #3273dc);
+			-webkit-background-clip: text;
+ 			-webkit-text-fill-color: transparent;
 		}
 	</style>
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
@@ -120,6 +132,7 @@
 		<div class="hero-body main">
 			<div class="container is-fluid">
 				<div class="columns">
+					<input type="checkbox" id="menu" style="display: none;">
 					<div class="column">
 						<span class="logo"><span class="icon"><i class="fa fa-magic"></i></span>SQL STAFF</span>
 						<div class="hero-body body">
@@ -132,10 +145,20 @@
 							</div>
 						</div>
 					</div>
-					<div class="column is-5 is-narrow">
+					<div class="column is-5 is-narrow" style="position: relative; overflow: hidden">
+						<div style="
+    height: 600px;
+    width: 1200px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -130%;
+" class="hero is-dark is-bold"></div>
 						<section class="hero is-info is-bold is-fullwidth is-fullheight">
 							<div class="hero-body">
-								<span class="menu icon"><i class="fa fa-bars"></i></span>
+								<label for="menu">
+									<span class="menu icon"><i class="fa fa-bars"></i></span>
+								</label>
 								<div class="container has-text-centered preview">
 									<h1 class="title">Take a SQL STAFF</h1>
 									<h2 class="subtitle sub"><br>You can make your program<br> faster and smarter.</h2>
